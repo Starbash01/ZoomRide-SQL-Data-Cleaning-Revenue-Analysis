@@ -52,6 +52,8 @@ If you find this project valuable, consider giving it a ⭐ and sharing your fee
 * Nine completed trips had missing fare values, meaning reported revenue may be understated.
 * Four customers had never booked a trip.
 
-### Project Conclusion
+### Short Message to the Manager
+ZoomRide should invest more in Lagos because it generated the highest completed-trip revenue at ₦218,890, well above Accra at ₦92,640. Two major data problems were incorrect/inconsistent city names and duplicate trips; without fixing them, city trip counts and revenue would be split incorrectly and some trips would be counted twice. We also found 9 completed trips with missing fares, which should be investigated rather than estimated. Before making a major investment decision, I would like to know why Lagos generates significantly more revenue and whether this demand is likely to continue.
 
+### Project Conclusion
 This project demonstrated how SQL can be used to clean messy business data and turn it into useful information for decision-making. After correcting inconsistent city names and removing duplicate trips, the analysis showed that Lagos generated the highest revenue, December 2025 had the most rides, and Economy vehicles generated the most revenue. The results can help ZoomRide identify strong-performing markets while highlighting data-quality issues that should be addressed before major business decisions.
