@@ -41,3 +41,17 @@ If you find this project valuable, consider giving it a ⭐ and sharing your fee
 * Identified the top customers based on total completed-trip spending.
 
 ## Structured Query Language
+- <a href="https://github.com/Starbash01/ZoomRide_SQL/blob/main/Olalekan_Zoomride.sql"> View Queries </a>
+
+### Key Insights
+* Lagos was the strongest-performing city, generating ₦218,890 in completed-trip revenue.
+* December 2025 recorded the highest number of rides with 31 completed trips.
+* Economy vehicles generated the highest revenue at ₦262,550.
+* The dataset contained significant data-quality issues, particularly inconsistent city names such as Nairobbi, Kampla, PH, and Port-Harcourt.
+* Duplicate records could have overstated trip counts and revenue if they were not removed.
+* Nine completed trips had missing fare values, meaning reported revenue may be understated.
+* Four customers had never booked a trip.
+
+### Project Conclusion
+
+This project demonstrated how SQL can be used to clean messy business data and turn it into useful information for decision-making. After correcting inconsistent city names and removing duplicate trips, the analysis showed that Lagos generated the highest revenue, December 2025 had the most rides, and Economy vehicles generated the most revenue. The results can help ZoomRide identify strong-performing markets while highlighting data-quality issues that should be addressed before major business decisions.
